@@ -103,7 +103,7 @@ function step(time) {
 
 
 
-    let vl = caval((dur / 2500), body_tr);
+    let vl = caval((dur / 3000), body_tr);
     document.getElementById("gbody_shold").style.transformOrigin = "187.13616px 369.99661px";
     document.getElementById("gbody_shold").style.transform = `rotate(${vl * dg}deg)`;
 

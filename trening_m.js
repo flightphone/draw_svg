@@ -1,35 +1,6 @@
 function easeInOutCubic(x) {
     return x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
 }
-function easeInOutExpo(x) {
-    return x === 0
-        ? 0
-        : x === 1
-            ? 1
-            : x < 0.5 ? Math.pow(2, 20 * x - 10) / 2
-                : (2 - Math.pow(2, -20 * x + 10)) / 2;
-}
-
-function easeInOutElastic(x) {
-    const c5 = (2 * Math.PI) / 4.5;
-
-    return x === 0
-        ? 0
-        : x === 1
-            ? 1
-            : x < 0.5
-                ? -(Math.pow(2, 20 * x - 10) * Math.sin((20 * x - 11.125) * c5)) / 2
-                : (Math.pow(2, -20 * x + 10) * Math.sin((20 * x - 11.125) * c5)) / 2 + 1;
-}
-function easeInOutBack(x) {
-    const c1 = 1.70158;
-    const c2 = c1 * 1.525;
-
-    return x < 0.5
-        ? (Math.pow(2 * x, 2) * ((c2 + 1) * 2 * x - c2)) / 2
-        : (Math.pow(2 * x - 2, 2) * ((c2 + 1) * (x * 2 - 2) + c2) + 2) / 2;
-}
-
 function caval(dur, keyframes) {
     let res = 0;
     let t = (dur - Math.trunc(dur));
@@ -71,12 +42,10 @@ function lenp(a, b)
     let y = a.y - b.y;
     return Math.sqrt(x*x + y*y);
 }
-
 function ab_corner(a, b, c)
 {
     return Math.acos((a*a + b*b - c*c) / 2 /a /b);
 }
-
 let p0 = {x:49.5, y:97.8}
 let p1 = {x:81.3, y:97.5}
 let p2 = {x:81.14, y:75.2}
@@ -103,7 +72,7 @@ function step(time) {
 
 
 
-    let vl = caval((dur / 3000), body_tr);
+    let vl = caval((dur / 2500), body_tr);
     document.getElementById("gbody_shold").style.transformOrigin = "187.13616px 369.99661px";
     document.getElementById("gbody_shold").style.transform = `rotate(${vl * dg}deg)`;
 
@@ -125,14 +94,10 @@ function step(time) {
     
     document.getElementById("gShoulder").style.transformOrigin = "306.84429px 285.24167px";
     document.getElementById("gShoulder").style.transform = `rotate(${d2 - 2.5/180*Math.PI}rad)`;
-
-    
-    
-
-
-    
-
-
     window.requestAnimationFrame(step);
 }
 window.requestAnimationFrame(step);
+
+//https://iconscout.com/lottie-animation-pack/woman-workout-3
+//https://iconscout.com/lottie-animation-pack/woman-workout-4
+//https://iconscout.com/lottie-animation/woman-doing-knee-push-ups-5080444

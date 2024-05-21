@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-<svg width="450" height="450" viewBox="0 0 450 450.00001" version="1.1" id="svg1" xml:space="preserve"
+
+<svg style="height:100%" viewBox="0 200 450 200" version="1.1" id="svg1" xml:space="preserve"
   xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <defs id="defs1">
     <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3">
@@ -22,7 +23,7 @@
     <path style="fill:#fca575;fill-opacity:1;stroke:none"
       d="m 303.66648,370.65017 c 0.0759,0.36445 0.22778,1.09336 0.82003,1.54893 0.59225,0.45557 1.62485,0.63779 3.58382,0.72891 1.95897,0.0911 4.84418,0.0911 7.15241,0.0911 2.30823,0 4.03935,0 5.74016,0.1063 1.7008,0.1063 3.37118,0.3189 4.79864,0.41002 1.42746,0.0911 2.61191,0.0607 3.21933,-0.3189 0.60743,-0.37965 0.63779,-1.10854 -0.44041,-1.8982 -1.0782,-0.78966 -3.26488,-1.64004 -5.51237,-2.35376 -2.24749,-0.71373 -4.55566,-1.29078 -6.89427,-1.68561 -2.3386,-0.39482 -4.70751,-0.60742 -6.65128,-0.60742 -1.94377,0 -3.4623,0.2126 -4.37344,0.85041 -0.91114,0.6378 -1.21485,1.70077 -1.3667,2.23227 -0.15186,0.5315 -0.15185,0.53149 -0.0759,0.89594 z"
       id="finger" />
-    <g id="gbody_shold" transform="rotate(-0.02406892,187.13616,369.99661)">
+    <g id="gbody_shold" transform="rotate(0,187.13616,369.99661)">
       <g id="gbody" clip-path="url(#clipPath3)" transform="rotate(-0.27578641,527.17058,-347.88031)">
         <path style="fill:#f8947a;fill-opacity:1;stroke:#000000"
           d="m 127.01237,292.11024 -26.96963,20.40945 28.24522,39.36108 58.31272,24.60067 65.6018,-37.90326 36.44544,-21.32059 35.89876,-9.47581 33.16536,-21.86727 3.28009,-45.19235 -24.96513,-13.48481 -66.33071,19.13385 -70.33971,18.58718 z"
@@ -40,16 +41,120 @@
           d="m 315.89089,277.07649 c 0,0 2.90302,-0.28832 4.28234,-0.72891 0.93166,-0.29759 2.64229,-1.27559 2.64229,-1.27559 0,0 0.85366,3.58572 1.54894,5.28459 0.73082,1.78571 1.63176,3.51831 2.7334,5.10236 1.38823,1.99614 4.82902,5.46682 4.82902,5.46682 l -11.93588,1.64004 -6.37795,-7.3802 z"
           id="heir2" />
       </g>
-      <g id="gShoulder" transform="rotate(26.70869,306.84429,285.24167)" style="fill:#fca575;fill-opacity:1">
+      <g id="gShoulder" transform="rotate(-1.5,306.84429,285.24167)" style="fill:#fca575;fill-opacity:1">
         <path style="opacity:1;fill:#fca575;fill-opacity:1;stroke:none"
           d="m 296.58999,283.16592 c 0.19741,-2.1108 0.59223,-3.87233 1.47301,-5.22386 0.88078,-1.35153 2.24746,-2.29301 3.50788,-2.71821 1.26041,-0.4252 2.4145,-0.33408 3.53824,0.30372 1.12375,0.63781 2.21709,1.82226 2.88526,3.24973 0.66816,1.42746 0.91113,3.09784 1.1541,6.77282 0.24298,3.67497 0.48594,9.35427 0.5315,15.26153 0.0455,5.90726 -0.1063,12.04212 -0.25816,16.11188 -0.15186,4.06976 -0.30371,6.07422 -0.89596,8.01799 -0.59225,1.94378 -1.62485,3.82676 -2.79416,4.58603 -1.1693,0.75928 -2.47523,0.39483 -3.69009,-0.34927 -1.21486,-0.74411 -2.33857,-1.86782 -3.00674,-2.96119 -0.66817,-1.09338 -0.88076,-2.15633 -1.15411,-5.8465 -0.27334,-3.69018 -0.60742,-10.00726 -0.86557,-15.47413 -0.25816,-5.46686 -0.44038,-10.08319 -0.5315,-13.62146 -0.0911,-3.53826 -0.0911,-5.99827 0.1063,-8.10908 z"
           id="shoulder" transform="rotate(1.4725277,179.05633,381.24161)" />
       </g>
     </g>
-    <g id="gelbow" transform="rotate(-0.17428985,306.93444,368.16151)">
+    <g id="gelbow" transform="rotate(0,306.93444,368.16151)">
       <path style="display:inline;opacity:1;fill:#fca575;fill-opacity:1;stroke:none"
         d="m 302.75535,324.06075 c -0.7441,0.42519 -2.23229,1.27559 -3.31047,2.61193 -1.07819,1.33635 -1.74633,3.15856 -1.94374,6.22611 -0.19741,3.06755 0.0759,7.38009 0.57705,12.52811 0.50113,5.14802 1.23002,11.13103 1.86782,15.50451 0.6378,4.37349 1.18446,7.13714 1.95894,8.74685 0.77449,1.60971 1.77671,2.06527 2.73342,1.50339 0.9567,-0.56188 1.86781,-2.14115 2.55117,-6.13503 0.68336,-3.99388 1.13892,-10.40207 1.48819,-16.12709 0.34927,-5.72503 0.59224,-10.76655 0.69854,-14.47186 0.1063,-3.70531 0.0759,-6.07415 -0.10629,-7.48645 -0.18223,-1.4123 -0.5163,-1.86785 -1.50338,-2.26268 -0.98708,-0.39483 -2.62709,-0.72891 -3.44712,-0.89595 -0.82002,-0.16704 -0.82004,-0.16704 -1.56413,0.25816 z"
         id="elbow" transform="matrix(1.0304739,2.8599596e-4,0.00260699,0.97042808,-7.0023886,9.8131961)" />
     </g>
   </g>
+  <script>
+    <![CDATA[
+    function easeInOutCubic(x) {
+    return x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+}
+function caval(dur, keyframes) {
+    let res = 0;
+    let t = (dur - Math.trunc(dur));
+    keyframes.forEach((frame) => {
+        if (frame.tbegin <= t && frame.tend >= t) {
+            let v = (t - frame.tbegin) / (frame.tend - frame.tbegin);
+            v = frame.fu(v);
+            v = frame.vbegin + v * (frame.vend - frame.vbegin);
+            res = v;
+        }
+    })
+    return res;
+}
+let body_tr = [
+    {
+        tbegin: 0,
+        tend: 0.45,
+        vbegin: 0,
+        vend: 1,
+        fu: easeInOutCubic
+    },
+    {
+        tbegin: 0.45,
+        tend: 0.9,
+        vbegin: 1,
+        vend: 0,
+        fu: easeInOutCubic
+    },
+]
+/*
+49.5 97.8 - 81.3  97.5  = 120.36
+        49.5 97.8 - 81.14 75.2 = 146.6
+        81.14 75.2 - x = 42.79
+        x - 81.3  97.5 = 41.43
+*/
+function lenp(a, b)
+{
+    let x = a.x - b.x;
+    let y = a.y - b.y;
+    return Math.sqrt(x*x + y*y);
+}
+function ab_corner(a, b, c)
+{
+    return Math.acos((a*a + b*b - c*c) / 2 /a /b);
+}
+let p0 = {x:49.5, y:97.8}
+let p1 = {x:81.3, y:97.5}
+let p2 = {x:81.14, y:75.2}
+let bot = lenp(p1, p0);
+let plan = lenp(p2, p0);
+let hand = lenp(p1, p2);
+let ke = 0.51;
+let h2 = hand*ke;
+let h1 = hand*(1-ke);
+
+let c0 = ab_corner(bot, plan, hand);
+let c1 = ab_corner(bot, hand, plan);
+let c2 = ab_corner(plan, hand, bot);
+
+let start = -1;
+let n = 0;
+function step(time) {
+    if (start == -1)
+        start = time;
+    let dur = (time - start);
+
+    let dg = 25;
+    let rd = dg / 180 * Math.PI;
+
+
+
+    let vl = caval((dur / 2500), body_tr);
+    document.getElementById("gbody_shold").style.transformOrigin = "187.13616px 369.99661px";
+    document.getElementById("gbody_shold").style.transform = `rotate(${vl * dg}deg)`;
+
+    
+    let ct0 = c0 - vl*rd;
+    let handt = Math.sqrt(bot*bot + plan*plan - 2*plan*bot*Math.cos(ct0));
+    let ct1 = ab_corner(bot, handt, plan);
+    let ct2 = ab_corner(plan, handt, bot);
+    
+    let d1 = ab_corner(h1, handt, h2);
+    let d2 = ab_corner(h2, handt, h1);
+
+    d1 = c1 - (ct1 - d1);
+    d2 = c2 - (ct2 - d2);
+    
+    document.getElementById("gelbow").style.transformOrigin = "306.93444px 368.16151px";
+    document.getElementById("gelbow").style.transform = `rotate(${-d1}rad)`;
+
+    
+    document.getElementById("gShoulder").style.transformOrigin = "306.84429px 285.24167px";
+    document.getElementById("gShoulder").style.transform = `rotate(${d2 - 2.5/180*Math.PI}rad)`;
+    window.requestAnimationFrame(step);
+}
+window.requestAnimationFrame(step);
+
+  ]]>
+  </script>
 </svg>
